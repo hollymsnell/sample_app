@@ -15,4 +15,8 @@ class ExamplePagesController < ApplicationController
     cities = ["denver", "austin", "baton rouge"]
     render json: {message: cites[1]}
   end
+
+  def dog_method
+    render html: <h1> "I'm a dog" </h1>.html_safe
+  end
 end

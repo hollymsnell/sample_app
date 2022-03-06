@@ -7,5 +7,6 @@ Rails.application.routes.draw do
   get "/boo", controller: "example_pages", action: "cat"
   get "/holly", controller: "example_pages", action: "holly_method"
   get "/capital", controller: "example_pages", action: "capitals"
+  get "/dog", controller: "example_pages", action: "dog_method"
 
 end
